@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="pl.xlf">
+        <body>
+            <trans-unit id="one">
+                <source>one</source>
+                <target>jeden</target>
+            </trans-unit>
+            <trans-unit id="two">
+                <source>two</source>
+                <target>dwa</target>
+            </trans-unit>
+            <trans-unit id="three">
+                <source>three</source>
+                <target>trzy</target>
+            </trans-unit>
+            <trans-unit id="four">
+                <source>four</source>
+                <target>cztery</target>
+            </trans-unit>
+            <trans-unit id="five">
+                <source>five</source>
+                <target>pięć</target>
+            </trans-unit>
+            <trans-unit id="six">
+                <source>six</source>
+                <target>sześć</target>
+            </trans-unit>
+            <trans-unit id="seven">
+                <source>seven</source>
+                <target>siedem</target>
+            </trans-unit>
+            <trans-unit id="eight">
+                <source>eight</source>
+                <target>osiem</target>
+            </trans-unit>
+            <trans-unit id="nine">
+                <source>nine</source>
+                <target>dziewięć</target>
+            </trans-unit>
+            <trans-unit id="ten">
+                <source>ten</source>
+                <target>dziesięć</target>
+            </trans-unit>
+
+            <trans-unit id="eleven">
+                <source>eleven</source>
+                <target>jedenaście</target>
+            </trans-unit>
+            <trans-unit id="twelve">
+                <source>twelve</source>
+                <target>dwanaście</target>
+            </trans-unit>
+            <trans-unit id="thirteen">
+                <source>thirteen</source>
+                <target>trzynaście</target>
+            </trans-unit>
+            <trans-unit id="fourteen">
+                <source>fourteen</source>
+                <target>czternaście</target>
+            </trans-unit>
+            <trans-unit id="fifteen">
+                <source>fifteen</source>
+                <target>piętnaście</target>
+            </trans-unit>
+            <trans-unit id="sixteen">
+                <source>sixteen</source>
+                <target>szesnaście</target>
+            </trans-unit>
+            <trans-unit id="seventeen">
+                <source>seventeen</source>
+                <target>siedemnaście</target>
+            </trans-unit>
+            <trans-unit id="eighteen">
+                <source>eighteen</source>
+                <target>osiemnaście</target>
+            </trans-unit>
+            <trans-unit id="nineteen">
+                <source>nineteen</source>
+                <target>dziewiętnaście</target>
+            </trans-unit>
+
+            <trans-unit id="twenty">
+                <source>twenty</source>
+                <target>dwadzieścia</target>
+            </trans-unit>
+            <trans-unit id="thirty">
+                <source>thirty</source>
+                <target>trzydzieści</target>
+            </trans-unit>
+            <trans-unit id="forty">
+                <source>forty</source>
+                <target>czterdzieści</target>
+            </trans-unit>
+            <trans-unit id="fifty">
+                <source>fifty</source>
+                <target>pięćdziesiąt</target>
+            </trans-unit>
+            <trans-unit id="sixty">
+                <source>sixty</source>
+                <target>sześćdziesiąt</target>
+            </trans-unit>
+            <trans-unit id="seventy">
+                <source>seventy</source>
+                <target>siedemdziesiąt</target>
+            </trans-unit>
+            <trans-unit id="eighty">
+                <source>eighty</source>
+                <target>osiemdziesiąt</target>
+            </trans-unit>
+            <trans-unit id="ninety">
+                <source>ninety</source>
+                <target>dziewięćdziesiąt</target>
+            </trans-unit>
+
+            <trans-unit id="one hundred">
+                <source>one hundred</source>
+                <target>sto</target>
+            </trans-unit>
+            <trans-unit id="two hundred">
+                <source>two hundred</source>
+                <target>dwieście</target>
+            </trans-unit>
+            <trans-unit id="three hundred">
+                <source>three hundred</source>
+                <target>trzysta</target>
+            </trans-unit>
+            <trans-unit id="four hundred">
+                <source>four hundred</source>
+                <target>czterysta</target>
+            </trans-unit>
+            <trans-unit id="five hundred">
+                <source>five hundred</source>
+                <target>pięćset</target>
+            </trans-unit>
+            <trans-unit id="six hundred">
+                <source>six hundred</source>
+                <target>sześćset</target>
+            </trans-unit>
+            <trans-unit id="seven hundred">
+                <source>seven hundred</source>
+                <target>siedemset</target>
+            </trans-unit>
+            <trans-unit id="eight hundred">
+                <source>eight hundred</source>
+                <target>osiemset</target>
+            </trans-unit>
+            <trans-unit id="nine hundred">
+                <source>nine hundred</source>
+                <target>dziewięćset</target>
+            </trans-unit>
+
+            <!-- segments -->
+            <trans-unit id="million">
+                <source>million</source>
+                <target>milion</target>
+            </trans-unit>
+            <trans-unit id="millions">
+                <source>millions</source>
+                <target>miliony</target>
+            </trans-unit>
+            <trans-unit id="millions multi">
+                <source>millions multi</source>
+                <target>milionów</target>
+            </trans-unit>
+            <trans-unit id="thousand single">
+                <source>thousand single</source>
+                <target>tysiąc</target>
+            </trans-unit>
+            <trans-unit id="thousand">
+                <source>thousand</source>
+                <target>tysiące</target>
+            </trans-unit>
+            <trans-unit id="thousands">
+                <source>thousands</source>
+                <target>tysięcy</target>
+            </trans-unit>
+
+            <!-- decimals -->
+            <trans-unit id="tenths">
+                <source>tenths</source>
+                <target>dziesiątych</target>
+            </trans-unit>
+            <trans-unit id="hundredths">
+                <source>hundredths</source>
+                <target>setnych</target>
+            </trans-unit>
+            <trans-unit id="tenth">
+                <source>tenth</source>
+                <target>dziesiąta</target>
+            </trans-unit>
+            <trans-unit id="hundredth">
+                <source>hundredth</source>
+                <target>setna</target>
+            </trans-unit>
+            <trans-unit id="tenth multi">
+                <source>tenth multi</source>
+                <target>dziesiąte</target>
+            </trans-unit>
+            <trans-unit id="hundredth multi">
+                <source>hundredth multi</source>
+                <target>setne</target>
+            </trans-unit>
+            <trans-unit id="one decimal">
+                <source>one decimal</source>
+                <target>jedna</target>
+            </trans-unit>
+            <trans-unit id="two decimal">
+                <source>two decimal</source>
+                <target>dwie</target>
+            </trans-unit>
+
+            <trans-unit id="and">
+                <source>and</source>
+                <target>i</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

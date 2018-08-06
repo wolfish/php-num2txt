@@ -1,0 +1,23 @@
+{
+    "name": "wolfish/php-num2txt",
+    "description": "Simple number to text converter",
+    "authors": [
+        {
+            "name": "Wilq",
+            "email": "wolfish0@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.1",
+        "symfony/translation": "^4.1",
+        "symfony/config": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wolfish\\": "src/"
+        }
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^4.1"
+    }
+}
