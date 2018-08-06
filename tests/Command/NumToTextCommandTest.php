@@ -28,7 +28,7 @@ class NumToTextCommandTest extends TestCase
 
     private function getOutput()
     {
-        return trim(str_replace("\n",'', $this->cmd->getDisplay()));
+        return trim(preg_replace("/(\n|\r)*/",'', $this->cmd->getDisplay()));
     }
 
     public function testZeroEn()

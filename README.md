@@ -29,4 +29,4 @@ Currently supported languages are:
 # How to test it?
 You can test it with phpunit using command tests prepared in `tests/` directory.
 
-Just run `./bin/phpunit`
+Just run `./bin/phpunit` or `php bin/phpunit` on Windows

@@ -2,6 +2,10 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file source-language="en" datatype="plaintext" original="en.xlf">
         <body>
+            <trans-unit id="zero">
+                <source>zero</source>
+                <target>zero</target>
+            </trans-unit>
             <trans-unit id="one">
                 <source>one</source>
                 <target>one</target>
@@ -155,36 +159,12 @@
                 <source>million</source>
                 <target>million</target>
             </trans-unit>
-            <trans-unit id="millions">
-                <source>millions</source>
-                <target>millions</target>
-            </trans-unit>
-            <trans-unit id="millions multi">
-                <source>millions multi</source>
-                <target>millions</target>
-            </trans-unit>
-            <trans-unit id="thousand single">
-                <source>thousand single</source>
-                <target>thousand</target>
-            </trans-unit>
             <trans-unit id="thousand">
                 <source>thousand</source>
                 <target>thousand</target>
             </trans-unit>
-            <trans-unit id="thousands">
-                <source>thousands</source>
-                <target>thousands</target>
-            </trans-unit>
 
             <!-- decimals -->
-            <trans-unit id="tenth">
-                <source>tenth</source>
-                <target>tenth</target>
-            </trans-unit>
-            <trans-unit id="hundredth">
-                <source>hundredth</source>
-                <target>hundredth</target>
-            </trans-unit>
             <trans-unit id="tenths">
                 <source>tenths</source>
                 <target>tenths</target>
@@ -192,14 +172,6 @@
             <trans-unit id="hundredths">
                 <source>hundredths</source>
                 <target>hundredths</target>
-            </trans-unit>
-            <trans-unit id="tenth multi">
-                <source>tenth multi</source>
-                <target>tenth multi</target>
-            </trans-unit>
-            <trans-unit id="hundredth multi">
-                <source>hundredth multi</source>
-                <target>hundredth multi</target>
             </trans-unit>
 
             <trans-unit id="and">

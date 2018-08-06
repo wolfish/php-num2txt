@@ -2,6 +2,10 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file source-language="en" datatype="plaintext" original="pl.xlf">
         <body>
+            <trans-unit id="zero">
+                <source>zero</source>
+                <target>zero</target>
+            </trans-unit>
             <trans-unit id="one">
                 <source>one</source>
                 <target>jeden</target>

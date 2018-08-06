@@ -5,7 +5,10 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use Wolfish\Exception\TranslateException;
 use Wolfish\Helper\ConverterHelper;
+use Wolfish\Translate\EnglishTranslate;
+use Wolfish\Translate\PolishTranslate;
 
 class NumToTextCommand extends Command
 {
@@ -53,8 +56,15 @@ class NumToTextCommand extends Command
         $this->number = str_replace(',', '.', $input->getArgument('number'));
         $this->lang = $input->getArgument('lang');
 
-        if (!file_exists('lang/' . $this->lang . '.xlf')) {
-            return $this->outputError($output, 'Locale ' . $this->lang . ' does not exists!');
+        switch ($this->lang) {
+            case 'pl':
+                $translate = new PolishTranslate();
+                break;
+
+            case 'en':
+            default:
+                $translate = new EnglishTranslate();
+                break;
         }
 
         $numberArray = explode('.', $this->number);
@@ -69,26 +79,12 @@ class NumToTextCommand extends Command
             return $this->outputError($output, 'Negative numbers not allowed');
         }
 
-        $numberException = $this->getNumberExceptions($output);
-        if ($numberException) {
-            return $this->outputResult($output, $numberException);
+        try {
+            $converter = new ConverterHelper($translate);
+            return $this->outputResult($output, $converter->convert($this->number, $this->decimals));
+        } catch (TranslateException $e) {
+            return $this->outputError($output, $e->getMessage());
         }
-
-        $converter = new ConverterHelper($this->lang);
-        return $this->outputResult($output, $converter->convert($this->number, $this->decimals));
-    }
-
-    /**
-     * @param OutputInterface $output
-     * @return bool|string
-     */
-    private function getNumberExceptions(OutputInterface $output)
-    {
-        if (!$this->number && !$this->decimals) {
-            return 'zero';
-        }
-
-        return false;
     }
 
     /**
