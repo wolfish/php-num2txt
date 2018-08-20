@@ -45,8 +45,7 @@ class PolishTranslate extends BasicTranslate
         $result = '';
         $num = (int)join($digitsArray);
 
-        $pluralNumbers = [2,3,4];
-        $isPlural = in_array(end($digitsArray), $pluralNumbers);
+        $isPlural = $this->isPlural($digitsArray);
 
         if ($digitsCount === 1) {
             if ($num === 1) {
